@@ -37,6 +37,6 @@ rm -rf %{buildroot}
 %defattr(-,root,root)
 %{_libdir}/xorg/modules/drivers/voodoo_drv.la
 %{_libdir}/xorg/modules/drivers/voodoo_drv.so
-%{_mandir}/man4/voodoo.4.bz2
+%{_mandir}/man4/voodoo.*
 
 
