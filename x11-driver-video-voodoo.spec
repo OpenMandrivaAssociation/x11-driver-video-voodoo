@@ -1,6 +1,6 @@
 Name: x11-driver-video-voodoo
-Version: 1.1.0
-Release: %mkrel 2
+Version: 1.1.1
+Release: %mkrel 1
 Summary: The X.org video driver for Voodoo1 and Voodoo2 video adapters
 Group: Development/X11
 URL: http://xorg.freedesktop.org
@@ -19,9 +19,7 @@ The X.org video driver for Voodoo1 and Voodoo2 video adapters.
 %setup -q -n xf86-video-voodoo-%{version}
 
 %build
-%configure2_5x	--x-includes=%{_includedir}\
-		--x-libraries=%{_libdir}
-
+%configure
 %make
 
 %install
@@ -37,3 +35,4 @@ rm -rf %{buildroot}
 %{_libdir}/xorg/modules/drivers/voodoo_drv.la
 %{_libdir}/xorg/modules/drivers/voodoo_drv.so
 %{_mandir}/man4/voodoo.*
+
