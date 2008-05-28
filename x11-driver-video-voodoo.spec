@@ -13,7 +13,8 @@ BuildRequires: x11-util-macros >= 1.0.1
 Conflicts: xorg-x11-server < 7.0
 
 %description
-The X.org video driver for Voodoo1 and Voodoo2 video adapters.
+x11-driver-video-voodoo is the X.org video driver for Voodoo1 and Voodoo2
+video adapters.
 
 %prep
 %setup -q -n xf86-video-voodoo-%{version}
