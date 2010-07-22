@@ -1,5 +1,5 @@
 Name: x11-driver-video-voodoo
-Version: 1.2.3
+Version: 1.2.4
 Release: %mkrel 1
 Summary: The X.org video driver for Voodoo1 and Voodoo2 video adapters
 Group: System/X11
