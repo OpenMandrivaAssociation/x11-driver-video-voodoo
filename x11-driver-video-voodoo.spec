@@ -1,11 +1,11 @@
 Name: x11-driver-video-voodoo
-Version: 1.2.4
+Version: 1.2.5
 Release: 8
 Summary: The X.org video driver for Voodoo1 and Voodoo2 video adapters
 Group: System/X11
 License: MIT
 URL: http://xorg.freedesktop.org
-Source: http://xorg.freedesktop.org/releases/individual/driver/xf86-video-voodoo-%{version}.tar.bz2
+Source0: http://xorg.freedesktop.org/releases/individual/driver/xf86-video-voodoo-%{version}.tar.bz2
 
 BuildRequires: x11-proto-devel >= 1.0.0
 BuildRequires: x11-server-devel >= 1.12
