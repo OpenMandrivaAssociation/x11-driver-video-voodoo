@@ -9,7 +9,7 @@ License:	MIT
 Url:		http://xorg.freedesktop.org
 Source0:	http://xorg.freedesktop.org/releases/individual/driver/xf86-video-voodoo-%{version}.tar.bz2
 Patch0:		xf86-video-voodoo-1.2.5-remove-miInitializeBackingStore.patch
-
+Patch1:		U_don-t-use-PCITAG-in-struct-anymore.patch
 BuildRequires:	pkgconfig(xorg-macros)
 BuildRequires:	pkgconfig(xorg-server)
 BuildRequires:	pkgconfig(xproto)
@@ -24,7 +24,7 @@ video adapters.
 %apply_patches
 
 %build
-%configure2_5x
+%configure
 %make
 
 %install
