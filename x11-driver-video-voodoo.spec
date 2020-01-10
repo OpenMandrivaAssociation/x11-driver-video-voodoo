@@ -21,7 +21,7 @@ video adapters.
 
 %prep
 %setup -qn xf86-video-voodoo-%{version}
-%apply_patches
+%autopatch -p1
 
 %build
 %configure
