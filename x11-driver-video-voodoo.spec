@@ -2,12 +2,12 @@
 
 Summary:	The X.org video driver for Voodoo1 and Voodoo2 video adapters
 Name:		x11-driver-video-voodoo
-Version:	1.2.5
-Release:	27
+Version:	1.2.6
+Release:	1
 Group:		System/X11
 License:	MIT
 Url:		http://xorg.freedesktop.org
-Source0:	http://xorg.freedesktop.org/releases/individual/driver/xf86-video-voodoo-%{version}.tar.bz2
+Source0:	https://xorg.freedesktop.org/releases/individual/driver/xf86-video-voodoo-%{version}.tar.xz
 Patch0:		xf86-video-voodoo-1.2.5-remove-miInitializeBackingStore.patch
 Patch1:		U_don-t-use-PCITAG-in-struct-anymore.patch
 BuildRequires:	pkgconfig(xorg-macros)
@@ -25,10 +25,10 @@ video adapters.
 
 %build
 %configure
-%make
+%make_build
 
 %install
-%makeinstall_std
+%make_install
 
 %files
 %doc COPYING
