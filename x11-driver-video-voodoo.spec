@@ -8,7 +8,6 @@ Group:		System/X11
 License:	MIT
 Url:		http://xorg.freedesktop.org
 Source0:	https://xorg.freedesktop.org/releases/individual/driver/xf86-video-voodoo-%{version}.tar.xz
-Patch1:		U_don-t-use-PCITAG-in-struct-anymore.patch
 BuildRequires:	pkgconfig(xorg-macros)
 BuildRequires:	pkgconfig(xorg-server)
 BuildRequires:	pkgconfig(xproto)
