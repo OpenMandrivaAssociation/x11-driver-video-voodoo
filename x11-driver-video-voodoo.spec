@@ -3,7 +3,7 @@
 Summary:	The X.org video driver for Voodoo1 and Voodoo2 video adapters
 Name:		x11-driver-video-voodoo
 Version:	1.2.6
-Release:	1
+Release:	2
 Group:		System/X11
 License:	MIT
 Url:		http://xorg.freedesktop.org
