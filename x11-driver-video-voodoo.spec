@@ -6,7 +6,7 @@ Version:	1.2.6
 Release:	2
 Group:		System/X11
 License:	MIT
-Url:		http://xorg.freedesktop.org
+Url:		https://xorg.freedesktop.org
 Source0:	https://xorg.freedesktop.org/releases/individual/driver/xf86-video-voodoo-%{version}.tar.xz
 BuildRequires:	pkgconfig(xorg-macros)
 BuildRequires:	pkgconfig(xorg-server)
